@@ -27,4 +27,4 @@ Asignación de secciones por parte del equipo
    detalle de los servicios. El elemento donde están los servicios debe de tener un  
    id=”services”
 
-3. Nicolás: Sección de noticias: Sección de noticias: El estudiante encargado de la sección de noticias, deberá dividir el ancho del sitio web en 2 filas y dos columnas para presentar 4 noticias. Cada noticia debe contar con un resumen, una imagen y un enlace a leer la noticia completa. El elemento donde están los servicios debe de tener un id=”news”
+3. Nicolás: Sección de noticias: El estudiante encargado de la sección de noticias, deberá dividir el ancho del sitio web en 2 filas y dos columnas para presentar 4 noticias. Cada noticia debe contar con un resumen, una imagen y un enlace a leer la noticia completa. El elemento donde están los servicios debe de tener un id=”news”
