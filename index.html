@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
 
+    <!-- Este recurso remoto es para usar bootstrap
+    para usarlo se debe agregar el siguiente link antes de cualquier estilo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+
+<body>
+    <header class="container p-0" style="background-color: azure;">
+        <!-- superior -->
+        <div class="row text-center align-items-center">
+            <div class="col-12 col-sm-6">
+                <!-- tutulo -->
+                <h1></h1>
+            </div>
+                
+            <div class="col col-12 col-sm-6">
+                <!-- menu -->
+                <nav>
+                    <a href="">Inicio</a>
+                    <a href="">Nosotros</a>
+                    <a href="">Noticias</a>
+                    <a href="">Servicios</a>
+                </nav>
+            </div>    
+        </div>
+
+        <!-- inferior -->
+        <div class="row">
+            <!-- carrusel de bootstrap -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://placeimg.com/640/100/any" style="object-fit: cover;" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://placeimg.com/640/100/animal" style="object-fit: cover;" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placeimg.com/640/100/tech" style="object-fit: cover;" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+        
+    </header>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Services</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-xl-4">  
+                    <!-- ---------------carta------------- -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://placeimg.com/440/440/tech" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <!-- ------------------carta-------------- -->
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">  
+                    <!-- ---------------carta------------- -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://placeimg.com/440/440/any" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <!-- ------------------carta-------------- -->                                        
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">  
+                    <!-- ---------------carta------------- -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://placeimg.com/440/440/tech" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <!-- ------------------carta-------------- -->                                        
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">  
+                    <!-- ---------------carta------------- -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://placeimg.com/440/440/any" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <!-- ------------------carta-------------- -->                                        
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+
+        </div>
+
+
+
+        <div class="container">
+            <div class="row border-main justify-content-center">
+            <div class="col-2">
+                Nombre
+            </div>
+            <div class="col-2">
+                Apellido
+            </div>
+            <div class="col-3 col-md-6">
+                Direccion
+            </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-2">
+                Cristian
+                </div>
+                <div class="col-2">
+                Pachon
+                </div>
+                <div class="col-3 col-md-6">
+                Medellin, cra 51 no 5734
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-2">
+                Alexandra
+                </div>
+                <div class="col-2">
+                Hoyos
+                </div>
+                <div class="col-3 col-md-6">
+                Manizales, cra 51 nomero 47-27
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Este es un recurso remoto de bootstrap para usar javaScript
+    para usarlo se agregan los siguientes links antes de cerrar la etiqueta body -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+</body>
+</html>
